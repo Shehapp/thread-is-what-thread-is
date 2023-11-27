@@ -15,7 +15,7 @@ public class DemoThread {
                                 for (int i = 0; i < 10; i++) {
                                     System.out.println("Take");
                                     try {
-                                        Thread.sleep(1000);
+                                        Thread.sleep(100);
                                     }catch (Exception c){}
                                 }
                             }
@@ -27,7 +27,7 @@ public class DemoThread {
                         for (int i = 0; i < 10; i++) {
                             System.out.println("Print");
                             try {
-                                Thread.sleep(1000);
+                                Thread.sleep(100);
                             }catch (Exception c){}
                         }
                     }
@@ -39,7 +39,7 @@ public class DemoThread {
                 for (int i = 0; i < 10; i++) {
                     System.out.println("Dis");
                     try {
-                        Thread.sleep(1000);
+                        Thread.sleep(100);
                     }catch (Exception c){}
                 }
             }
